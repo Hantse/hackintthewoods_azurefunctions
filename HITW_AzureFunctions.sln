@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctions_EmailValidat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctions_Fibonacci", "src\AzureFunctions_Fibonacci\AzureFunctions_Fibonacci.csproj", "{D2A11560-D14D-4C43-BDA2-65A89D340DDD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctions_IotTemperature", "AzureFunctions_IotTemperature\AzureFunctions_IotTemperature.csproj", "{44330BE5-D367-4DEC-842D-4B778DB88749}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzureFunctions_IotTemperature", "src\AzureFunctions_IotTemperature\AzureFunctions_IotTemperature.csproj", "{4B21AB8C-B69A-479A-907A-D5D6E615FF19}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,10 +25,10 @@ Global
 		{D2A11560-D14D-4C43-BDA2-65A89D340DDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D2A11560-D14D-4C43-BDA2-65A89D340DDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D2A11560-D14D-4C43-BDA2-65A89D340DDD}.Release|Any CPU.Build.0 = Release|Any CPU
-		{44330BE5-D367-4DEC-842D-4B778DB88749}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{44330BE5-D367-4DEC-842D-4B778DB88749}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{44330BE5-D367-4DEC-842D-4B778DB88749}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{44330BE5-D367-4DEC-842D-4B778DB88749}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B21AB8C-B69A-479A-907A-D5D6E615FF19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B21AB8C-B69A-479A-907A-D5D6E615FF19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B21AB8C-B69A-479A-907A-D5D6E615FF19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B21AB8C-B69A-479A-907A-D5D6E615FF19}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,7 +36,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{48244DCA-0BD4-4F9D-90F8-899A72A968F7} = {6ADDF82C-BE07-4299-912C-697FBCAA7208}
 		{D2A11560-D14D-4C43-BDA2-65A89D340DDD} = {6ADDF82C-BE07-4299-912C-697FBCAA7208}
-		{44330BE5-D367-4DEC-842D-4B778DB88749} = {6ADDF82C-BE07-4299-912C-697FBCAA7208}
+		{4B21AB8C-B69A-479A-907A-D5D6E615FF19} = {6ADDF82C-BE07-4299-912C-697FBCAA7208}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74C2B7C5-E2C8-4F77-9211-B9F362ECDD87}
