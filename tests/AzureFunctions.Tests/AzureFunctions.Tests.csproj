@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
@@ -18,7 +18,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\src\AzureFunctions_EmailValidation\AzureFunctions_EmailValidation.csproj" />
+    <ProjectReference Include="..\..\src\AzureFunctions\AzureFunctions.csproj" />
     <ProjectReference Include="..\..\src\AzureFunctions_Fibonacci\AzureFunctions_Fibonacci.csproj" />
   </ItemGroup>
 

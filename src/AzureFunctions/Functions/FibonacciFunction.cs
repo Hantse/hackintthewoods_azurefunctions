@@ -7,21 +7,21 @@ namespace AzureFunctionsFibonacci
     public static class FibonacciFunction
     {
         [FunctionName("Fibonacci")]
-        public static void Run([TimerTrigger("0 */5 * * * *")]TimerInfo myTimer, ILogger log)
+        public static void Run([TimerTrigger("0 * * * * *")]TimerInfo myTimer, ILogger log)
         {
             log.LogInformation($"C# Timer trigger function executed at: {DateTime.Now}");
-            int fibonacciIndex = DateTime.Now.Hour + DateTime.Now.Minute;
-            log.LogInformation($"C# Fibonacci Result: {Fibonacci(fibonacciIndex)}");
+            long fibonacciIndex = DateTime.Now.Hour + DateTime.Now.Minute;
+            log.LogInformation($"C# Fibonacci Result: {Fibonacci(fibonacciIndex)} for {fibonacciIndex} (index)");
         }
 
-        public static int Fibonacci(int n)
+        public static long Fibonacci(long n)
         {
-            int a = 0;
-            int b = 1;
+            long a = 0;
+            long b = 1;
 
-            for (int i = 0; i < n; i++)
+            for (long i = 0; i < n; i++)
             {
-                int temp = a;
+                long temp = a;
                 a = b;
                 b = temp + b;
             }
